@@ -1,0 +1,130 @@
+/*-------------------------------------------
+
+     starting of the class "heading-part"
+
+---------------------------------------------*/
+
+
+.head-part {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.head-part h2 {
+    font-size: 30px;
+}
+
+.head-nav {
+    display: grid;
+    grid-template-columns: repeat(6, 90px);
+}
+
+.heading {
+    width: 50%;
+    font-size: 35px;
+    padding-top: 150px;
+}
+
+.img-cam {
+    padding-top: 150px;
+    width: 50%;
+}
+
+
+
+
+.heading>p {
+    border: 1px solid red;
+    background-color: deeppink;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 688px) {
+    .head-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/*-------------------------------------------
+
+     end of the class "heading-part"
+
+---------------------------------------------*/
+
+
+
+/*-------------------------------------------
+
+    start of the class "sponsorship"
+
+---------------------------------------------*/
+
+.hr {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+/*-------------------------------------------
+
+     end of the class "sponsorship"
+
+---------------------------------------------*/
+
+
+
+/*-------------------------------------------
+
+    start of the class "products"
+
+---------------------------------------------*/
+
+
+
+.star {
+    color: orange;
+    display: grid;
+    grid-template-columns: repeat(5, 20px);
+}
+
+
+.first-card {
+
+    border: 20px solid white;
+}
+
+.products {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.see-more {
+    margin-left: 75%;
+    color: deeppink;
+    padding-top: 1%;
+}
+
+/*-------------------------------------------
+
+     end of the class "sponsorship"
+
+---------------------------------------------*/
