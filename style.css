@@ -17,8 +17,15 @@
 }
 
 .head-nav {
+    width: 50%;
     display: grid;
-    grid-template-columns: repeat(6, 90px);
+    grid-template-columns: repeat(6, auto);
+}
+
+.head-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 .heading {
@@ -117,7 +124,9 @@
     column-gap: 15px;
 }
 
-.see-more {
+.see-more a {
+    text-decoration: none;
+    font-size: 18px;
     margin-left: 75%;
     color: deeppink;
     padding-top: 1%;
@@ -128,3 +137,68 @@
      end of the class "sponsorship"
 
 ---------------------------------------------*/
+
+/*-------------------------------------------
+
+    start of the class "last-part"
+
+---------------------------------------------*/
+
+.last-part {
+    margin-top: 15%;
+    display: flex;
+}
+
+
+.last-img {
+
+    margin-left: 8%;
+
+}
+
+.explaination {
+    padding-left: 6%;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+
+
+
+.join {
+    padding: 1%;
+    margin-top: 3%;
+    font-size: 30px;
+    background-color: deeppink;
+    border-color: deeppink;
+    color: white;
+}
+
+/*-------------------------------------------
+
+     end of the class "last-part"
+
+---------------------------------------------*/
+
+footer {
+    margin-top: 8%;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(4, 25px);
+    padding-left: 47%;
+}
+
+.finishing {
+    border: 2px solid black;
+}
+
+.finishing-explaination {
+    font-size: 145%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
